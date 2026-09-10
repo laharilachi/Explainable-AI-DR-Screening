@@ -62,3 +62,54 @@ This project provides an end-to-end screening system that:
 ---
 
 ## Project Structure
+
+Explainable-AI-DR-Screening/
+├── Code/
+│   ├── Classification/
+│   ├── QualityAssessment/
+│   ├── Pipeline/
+│   ├── processImage.m
+│   └── app.py
+├── Models/
+├── Datasets/
+├── Results/
+├── temp_input/
+├── temp_output/
+└── Docs/
+
+---
+
+## How to Run
+
+### 1. Streamlit Web App
+
+```bash
+cd Code
+streamlit run app.py
+
+Usage Flow:
+
+1.Enter Patient Name
+2.Upload fundus image
+3.Click Save Image for MATLAB
+4.Open MATLAB and run processImage
+5.Click Load Results from MATLAB
+MATLAB Standalone Pipeline
+matlab
+cd Code
+runFullPipeline('path_to_your_image.png')
+
+Pipeline Flow
+Fundus Image
+    ↓
+Quality Assessment
+    ↓
+CLAHE Enhancement
+    ↓
+EfficientNet-B0 Classification
+    ↓
+Grad-CAM Explanation
+    ↓
+Final Result (Grade + Confidence + Heatmap)
+
+
