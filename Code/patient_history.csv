@@ -1,0 +1,12 @@
+PatientID,Name,Date,Grade,Confidence,Quality
+PID-67383E6A,Lahari Lachi,2026-09-07 15:09,Moderate,64.4%,Good
+PID-0D397E40,Lahari Lachi,2026-09-07 15:09,Moderate,64.4%,Good
+PID-829120DC,Lahari Lachi,2026-09-07 15:09,Moderate,64.4%,Good
+PID-6B0814FB,Lahari Lachi,2026-09-07 15:09,Moderate,64.4%,Good
+PID-6B0814FB,Lahari Lachi,2026-09-07 15:09,Moderate,64.4%,Good
+PID-3FC459A9,chandini,2026-09-07 15:10,Moderate,64.4%,Good
+PID-EAD6BFE0,Lahari Lachi,2026-09-07 15:13,Moderate,64.4%,Good
+PID-4E5A44B3,Lahari Lachi,2026-09-07 15:18,Moderate,64.4%,Good
+PID-86B2509D,lahari,2026-09-10 15:31,Severe,76.5%,Good
+PID-86B2509D,lahari,2026-09-10 15:49,Severe,76.5%,Good
+PID-86B2509D,lahari,2026-09-10 15:50,Proliferate_DR,59.0%,Good
